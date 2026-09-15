@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%" fill="none">
+  <!-- Wanderly Official Vector Logo -->
+  <g id="wanderly-logo">
+    <!-- Main Circular Frame & Mountain 'W' Silhouette -->
+    <path
+      d="M 331 76
+         A 192 192 0 1 0 140 407
+         L 250 240
+         L 360 407
+         A 192 192 0 0 0 424 169"
+      fill="none"
+      stroke="#0B2341"
+      stroke-width="36"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Compass Pointer Head (Coral Arrow) -->
+    <polygon
+      points="250,165 452,48 335,250"
+      fill="#FA654B"
+    />
+
+    <!-- Center Compass Pivot & Alignment Pin -->
+    <g id="pivot-bracket" transform="translate(272, 228) rotate(45)">
+      <!-- Pivot Outer Bracket with Side Ears -->
+      <path
+        d="M -15 -7
+           A 16 16 0 0 1 15 -7
+           C 23 -7 23 7 15 7
+           A 16 16 0 0 1 -15 7
+           C -23 7 -23 -7 -15 -7 Z"
+        fill="#0B2341"
+      />
+      <!-- Center Pin Hole -->
+      <circle cx="0" cy="0" r="7.5" fill="#FFFFFF" />
+    </g>
+  </g>
+</svg>
