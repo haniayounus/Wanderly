@@ -1,7 +1,7 @@
 // src/components/Hero.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Compass, Sparkles, ArrowRight, ShieldCheck, MapPin } from 'lucide-react';
+import { Compass, ArrowRight, ShieldCheck, MapPin } from 'lucide-react';
 
 /**
  * Hero section component for the Wanderly homepage
@@ -29,7 +29,6 @@ export default function Hero() {
 
       <div className="hero-content-container">
         <div className="hero-badge">
-          <Sparkles size={16} className="hero-sparkle" />
           <span>Curated Travel Experiences</span>
         </div>
 
